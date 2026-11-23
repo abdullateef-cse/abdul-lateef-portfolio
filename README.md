@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Professional portfolio for Abdul Lateef, built with Next.js 16 and React 19.
 
 ## Getting Started
 
@@ -15,6 +15,17 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Contact form
+
+The contact form uses `POST /api/contact`. Email delivery is optional and remains disabled until Resend environment variables are configured.
+
+1. Copy `.env.example` to `.env.local`.
+2. Create a Resend API key.
+3. Set `RESEND_API_KEY`.
+4. Set `RESEND_FROM_EMAIL` to a verified sender.
+
+Until configured, the form provides a validated mailto fallback to the portfolio contact address.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
