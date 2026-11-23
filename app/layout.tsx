@@ -18,6 +18,10 @@ const siteUrl = "https://abdul-lateef-portfolio.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
+    verification: {
+    google: "NcnzoQQRL81n7f7T4DoDnC4EDE6vqisx7InP7iTriEE",
+  },
+
   title: {
     default: "Abdul Lateef | AI & Software Engineering Portfolio",
     template: "%s | Abdul Lateef",
